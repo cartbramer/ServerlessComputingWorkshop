@@ -31,4 +31,4 @@ if __name__ == "__main__":
         print_usage()
         raise ValueError("ERROR: m2 must be larger than m1.")
     
-    print (how_many_primes_between(5, 20))
+    print (how_many_primes_between(m1, m2))
