@@ -1,0 +1,11 @@
+docker login
+
+docker build . --tag bartcramerkpn/serverless
+
+docker run -e M1=1 -e M2=200 bartcramerkpn/serverless
+
+docker push bartcramerkpn/serverless
+
+
+
+
