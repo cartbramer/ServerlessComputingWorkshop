@@ -1,0 +1,25 @@
+{
+    "id": "{TASK_ID}-{M1}-{M2}",
+    "commandLine": "echo",
+    "userIdentity": {
+        "autoUser": {
+            "scope": "task",
+            "elevationLevel": "nonadmin"
+        }
+    },
+    "containerSettings": {
+        "imageName": "bartcramerkpn/serverless",
+        "workingDirectory": "taskWorkingDirectory"
+    },  
+    "environmentSettings": [
+    {
+      "name": "M1",
+      "value": "{M1}"
+    },
+    {
+      "name": "M2",
+      "value": "{M2}"
+    }
+  ],
+}
+

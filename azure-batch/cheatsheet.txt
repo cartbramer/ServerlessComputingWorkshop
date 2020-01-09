@@ -6,6 +6,10 @@ docker run -e M1=1 -e M2=200 bartcramerkpn/serverless
 
 docker push bartcramerkpn/serverless
 
+az login
+az batch account login --resource-group rg-ServerlessComputing --name bartbatchaccount
+
+az batch task create --job-id=jobforworkshop --json-file=spawn_task.json
 
 
 

@@ -1,0 +1,10 @@
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-0-10.json
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-10-20.json
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-20-30.json
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-30-40.json
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-40-50.json
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-50-60.json
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-60-70.json
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-70-80.json
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-80-90.json
+az batch task create --job-id=jobforworkshop --json-file=all_tasks/task-test-90-100.json
