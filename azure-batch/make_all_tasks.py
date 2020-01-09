@@ -1,10 +1,10 @@
 from datetime import datetime
 
-TASK_ID = "test"
+TASK_ID = "test2"
 
 script_lines = []
-tasks = 10
-task_size = 10
+tasks = 300
+task_size = 5000  # Roughly one minute. 
 
 with open("spawn_task.json") as f: 
   template = f.read()
