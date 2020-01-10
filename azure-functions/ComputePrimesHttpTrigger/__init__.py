@@ -15,4 +15,4 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
              "Not a well-formed query",
              status_code=400)
 
-    return func.HttpResponse("The number of primes: " + str(compute_primes.how_many_primes_between(m1, m2)))
+    return func.HttpResponse("The number of primes: " + str(compute_primes.how_many_primes_between(m1, m2)) + "\n")
